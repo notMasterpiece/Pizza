@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import PizzaWrap from './components/Pizza/PizzaWrap';
 
 function App() {
