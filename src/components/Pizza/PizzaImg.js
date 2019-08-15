@@ -77,7 +77,7 @@ const PizzaImg = ({ ingredients }) => {
               );
             default:
               return (
-                <Fragment key={Math.random()}>a
+                <Fragment key={Math.random()}>
                   <FigureImg src={ingredient.bigImg} alt={ingredient.title}/>
                   <FigureImg src={ingredient.bigImg} alt={ingredient.title}
                        style={{ transform: 'translate(-10px, 5px) rotate(20deg)' }}/>

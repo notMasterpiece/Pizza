@@ -63,7 +63,7 @@ const TabIngr = styled.div`
   display: inline-block;
   width: 100px;
   height: 100px;
-  margin: 10px;
+  margin: 5px;
   position: relative;
   border: 1px solid #ccc;
   box-shadow: 2px 2px 2px 0px #ccc;

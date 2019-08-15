@@ -2,12 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41508899-7c87-40f7-abb6-992903a5d1e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/assets/img/pepperoni_salami.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/pepperoni_salami.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pizza/Ingredients.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pizza/Ingredients.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/precache-manifest.101e691abf1b1bbac75e43c30df6b5b1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.45ab7065.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.45ab7065.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.4adae9ec.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.4adae9ec.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.ac93556f.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.ac93556f.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/runtime~main.4fe56145.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/runtime~main.4fe56145.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/close.03cf39bd.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/constractor_pizza.26246eed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/ingredient_type_cheese.4a1ae384.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/ingredient_type_fish.0ee12be7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/ingredient_type_meat.b15b205a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/ingredient_type_vegetable.9d636334.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/pepperoni_salami.3907ae79.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Pizza/IngredientsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pizza/IngredientsList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Pizza/PizzaImg.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pizza/PizzaImg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pizza/PizzaWrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pizza/PizzaWrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/json.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/json.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pizza/Tabs/Tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pizza/Tabs/Tabs.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/Pizza/PizzaWrap.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="337">
-              <caret line="29" column="3" lean-forward="true" selection-start-line="27" selection-start-column="2" selection-end-line="29" selection-end-column="3" />
+              <caret line="29" column="3" selection-start-line="27" selection-start-column="2" selection-end-line="29" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -54,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/Pizza/Ingredients.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -66,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/.editorconfig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="40">
-              <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -74,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Pizza/PizzaImg.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+            <state relative-caret-position="740">
+              <caret line="79" column="46" lean-forward="true" selection-start-line="79" selection-start-column="46" selection-end-line="79" selection-end-column="46" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
                 <element signature="e#140#193#0" expanded="true" />
@@ -87,10 +108,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Pizza/IngredientsList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="288">
+              <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Pizza/Tabs/Tabs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="65" column="14" lean-forward="true" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,7 +133,7 @@
         <entry file="file://$PROJECT_DIR$/src/json.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="5" column="51" lean-forward="true" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+              <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -118,6 +151,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>map</find>
+      <find>a</find>
+      <find>a</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -133,7 +168,6 @@
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/components/Pizza/PizzaHeader.js" />
-        <option value="$PROJECT_DIR$/src/components/Pizza/Tabs/Tabs.js" />
         <option value="$PROJECT_DIR$/.prettierrc" />
         <option value="$PROJECT_DIR$/.editorconfig" />
         <option value="$PROJECT_DIR$/.eslintrc.js" />
@@ -148,6 +182,7 @@
         <option value="$PROJECT_DIR$/src/json.js" />
         <option value="$PROJECT_DIR$/src/components/Pizza/PizzaWrap.js" />
         <option value="$PROJECT_DIR$/src/components/Pizza/PizzaImg.js" />
+        <option value="$PROJECT_DIR$/src/components/Pizza/Tabs/Tabs.js" />
         <option value="$PROJECT_DIR$/src/components/Pizza/IngredientsList.js" />
       </list>
     </option>
@@ -197,6 +232,14 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="Pizza" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pizza" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pizza" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Pizza" type="462c0819:PsiDirectoryNode" />
+              <item name="Tabs" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -240,12 +283,12 @@
       <workItem from="1565696737104" duration="9433000" />
       <workItem from="1565763521787" duration="22760000" />
       <workItem from="1565848609151" duration="10822000" />
-      <workItem from="1565862893892" duration="9119000" />
+      <workItem from="1565862893892" duration="9851000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52134000" />
+    <option name="totallyTimeSpent" value="52866000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1058" extended-state="6" />
@@ -316,16 +359,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/img/pepperoni_salami.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Pizza/Tabs/Tabs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3500">
-          <caret line="175" column="38" selection-start-line="175" selection-start-column="38" selection-end-line="175" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -446,7 +479,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/Pizza/Ingredients.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -456,7 +489,7 @@
     <entry file="file://$PROJECT_DIR$/.editorconfig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
-          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -466,7 +499,7 @@
     <entry file="file://$PROJECT_DIR$/src/json.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="5" column="51" lean-forward="true" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -480,10 +513,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Pizza/PizzaWrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="29" column="3" selection-start-line="27" selection-start-column="2" selection-end-line="29" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Pizza/PizzaImg.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        <state relative-caret-position="740">
+          <caret line="79" column="46" lean-forward="true" selection-start-line="79" selection-start-column="46" selection-end-line="79" selection-end-column="46" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
             <element signature="e#140#193#0" expanded="true" />
@@ -491,17 +531,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Pizza/PizzaWrap.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Pizza/Tabs/Tabs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="29" column="3" lean-forward="true" selection-start-line="27" selection-start-column="2" selection-end-line="29" selection-end-column="3" />
+        <state relative-caret-position="412">
+          <caret line="65" column="14" lean-forward="true" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Pizza/IngredientsList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="288">
+          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>

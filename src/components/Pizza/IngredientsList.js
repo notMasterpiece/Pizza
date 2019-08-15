@@ -31,6 +31,7 @@ const IClose = styled.div`
   height: 25px;
   margin-left: 20px;
   cursor: pointer;
+  min-width: 25px;
 `;
 
 const ICount = styled.span`
@@ -41,6 +42,7 @@ const ICount = styled.span`
 const IImg = styled.div`
   width: 25px;
   height: 25px;
+  min-width: 25px;
   margin-right: 5px;
   img {
     width: 100%;
@@ -71,6 +73,7 @@ const Button = styled.button`
 const IAdd = styled.div`
     width: 22px;
     height: 22px;
+    min-width: 22px;
     background: #43a047;
     font-size: 18px;
     display: flex;
