@@ -1,5 +1,6 @@
 {
   "name": "pizza",
+  "homepage": "https://notmasterpiece.github.io/Pizza",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -40,6 +41,5 @@
     "gh-pages": "^2.1.1",
     "prettier": "^1.17.1",
     "prop-types": "^15.7.2"
-  },
-  "homepage": "https://notmasterpiece.github.io/Pizza"
+  }
 }
