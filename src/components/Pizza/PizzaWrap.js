@@ -19,11 +19,15 @@ const AppTop = styled.div`
   align-items: center;
   margin-bottom: 50px;
   user-select: none;
+  flex-wrap: wrap;
 `;
 
 const AppTopLeft = styled.div`
   width: 50%;
   position: relative;
+  @media (max-width: 1024px) {
+    width: 100%;
+  }
 `;
 
 const PizzaInfo = styled.div`

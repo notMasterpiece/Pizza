@@ -8,6 +8,14 @@ const Ingredient = styled.div`
   width: 100%;
   padding: 5px;
 `;
+
+const TopIngredient = styled(Ingredient)`
+  padding: 5px 118px 5px 35px;
+  @media (max-width: 1024px) {
+    padding: 5px;
+  }
+`;
+
 const IWeight = styled.div`
   margin-left: auto;
   min-width: 75px;
@@ -88,14 +96,14 @@ const IngredientsList = ({
 
     return (
         <Fragment>
-            <Ingredient style={{ padding: '5px 118px 5px 35px' }} >
+            <TopIngredient>
                 Паляничка (класична) соус томатний, сир
                 <ICount>x1</ICount>
                 <ILine />
                 <IWeight>
                     305 грам
                 </IWeight>
-            </Ingredient>
+            </TopIngredient>
             { ingredients.map((ingredient, index) => {
                 return (
                     <Ingredient key={index}>
