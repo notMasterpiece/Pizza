@@ -88,6 +88,16 @@ const TabsList = styled.div`
   margin-bottom: 20px;
 `;
 
+const IngredientCountDiv = styled.div`
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  background-color: red;
+  color: #fff;
+  font-size: 17px;
+  padding: 0 7px;
+  border-radius: 4px;
+`;
 
 
 
@@ -142,10 +152,20 @@ const Tab = ({children}) => <div>{children}</div>;
 //const Tab = ({ children }) => <React.Fragment>{children}</React.Fragment>;
 
 
+const IngredientCount = ({ingredient, ingredients}) => {
+  const finded = ingredients.find(element => element.id === ingredient.id);
+
+  if (finded) {
+    return (
+      <IngredientCountDiv>{finded.count}</IngredientCountDiv>
+    )
+  }
+  return null;
+};
 
 
-const TabsView = ({addIngredient}) => (
-    <Tabs defaultIndex={1}>
+const TabsView = ({addIngredient, ingredients}) => (
+    <Tabs defaultIndex={0}>
         <Tab
             label="Сирна"
             img={cheese}
@@ -163,7 +183,11 @@ const TabsView = ({addIngredient}) => (
                                 <Prise>{`${chesse.price} грн`}</Prise>
                             </div>
                         </Tooltip>
-                        <img src={chesse.img} alt={chesse.title}/>
+                        <img src={chesse.img} alt={chesse.title} />
+                        <IngredientCount
+                          ingredient={chesse}
+                          ingredients={ingredients}
+                        />
                     </TabIngr>
                 ))
             }
@@ -186,7 +210,10 @@ const TabsView = ({addIngredient}) => (
                                 <Prise>{`${meat.price} грн`}</Prise>
                             </div>
                         </Tooltip>
-
+                      <IngredientCount
+                        ingredient={meat}
+                        ingredients={ingredients}
+                      />
                     </TabIngr>
                 ))
             }
@@ -210,6 +237,10 @@ const TabsView = ({addIngredient}) => (
                                 <Prise>{`${fish.price} грн`}</Prise>
                             </div>
                         </Tooltip>
+                      <IngredientCount
+                        ingredient={fish}
+                        ingredients={ingredients}
+                      />
                     </TabIngr>
                 ))
             }
@@ -232,6 +263,10 @@ const TabsView = ({addIngredient}) => (
                                 <Prise>{`${vegetable.price} грн`}</Prise>
                             </div>
                         </Tooltip>
+                      <IngredientCount
+                        ingredient={vegetable}
+                        ingredients={ingredients}
+                      />
                     </TabIngr>
                 ))
             }

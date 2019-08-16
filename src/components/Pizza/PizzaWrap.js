@@ -6,6 +6,8 @@ import Weight from './Weight';
 import PizzaImg from './PizzaImg';
 import PizzaHeader from './PizzaHeader';
 import styled from 'styled-components';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const App = styled.div`
   width: 100%;
@@ -60,7 +62,6 @@ class PizzaWrap extends Component {
     if (typeof ingredient === 'object') {
 
       const { ingredients } = this.state;
-
       const includesIngredient = ingredients.find(element => element.id === ingredient.id);
 
       if (includesIngredient) {
@@ -75,8 +76,25 @@ class PizzaWrap extends Component {
     }
   };
 
+  checkIngredientCount = (id) => {
+    const { ingredients } = this.state;
+    const includesIngredient = ingredients.find(element => element.id === id);
+    if (includesIngredient) {
+      if (includesIngredient.count === 5 ) {
+        const notify = () => toast(`Ви вибрали максимальну кількість ${includesIngredient.title}`);
+        notify();
+        return false
+      } else {
+        return true;
+      }
+    }
+  };
+
 
   plusIngredient = (id) => {
+
+    if (!this.checkIngredientCount(id)) return;
+
     const ingredients = this.state.ingredients.map(ingredient => {
       if (ingredient.id !== id) {
         return ingredient;
@@ -139,8 +157,15 @@ class PizzaWrap extends Component {
             </AppTopLeft>
           </AppTop>
 
-          <Ingredients addIngredient={this.addIngredient}/>
+          <Ingredients
+            addIngredient={this.addIngredient}
+            ingredients={ingredients}
+          />
         </App>
+        <ToastContainer
+          hideProgressBar={true}
+          position="top-right"
+        />
       </Fragment>
     );
   }
