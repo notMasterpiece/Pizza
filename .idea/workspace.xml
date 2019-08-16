@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41508899-7c87-40f7-abb6-992903a5d1e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pizza/Ingredients.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pizza/Ingredients.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pizza/PizzaWrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pizza/PizzaWrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pizza/Tabs/Tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pizza/Tabs/Tabs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/b613d08c67.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/preview.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,7 +33,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="40">
-                <caret line="2" column="78" selection-start-line="2" selection-start-column="78" selection-end-line="2" selection-end-column="78" />
+                <caret line="2" column="63" lean-forward="true" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
               </first_editor>
               <second_editor />
             </state>
@@ -190,45 +185,6 @@
               <item name="pizza" type="b2602c69:ProjectViewProjectNode" />
               <item name="pizza" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="pizza" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pizza" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pizza" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pizza" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pizza" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pizza" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pizza" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pizza" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pizza" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pizza" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Pizza" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pizza" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pizza" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Pizza" type="462c0819:PsiDirectoryNode" />
-              <item name="Tabs" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -247,6 +203,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -274,12 +235,12 @@
       <workItem from="1565763521787" duration="22760000" />
       <workItem from="1565848609151" duration="10822000" />
       <workItem from="1565862893892" duration="9925000" />
-      <workItem from="1565935974410" duration="4520000" />
+      <workItem from="1565935974410" duration="4758000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57460000" />
+    <option name="totallyTimeSpent" value="57698000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1058" extended-state="6" />
@@ -509,14 +470,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/b613d08c67.jpg">
+    <entry file="file://$PROJECT_DIR$/preview.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="40">
-            <caret line="2" column="78" selection-start-line="2" selection-start-column="78" selection-end-line="2" selection-end-column="78" />
+            <caret line="2" column="63" lean-forward="true" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
           </first_editor>
           <second_editor />
         </state>
